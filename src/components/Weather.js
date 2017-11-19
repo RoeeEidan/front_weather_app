@@ -23,10 +23,10 @@ const Weather = (props) => {
         <div>
             <h3>{city}</h3>
             <h4>{`${temp} C`}</h4>
-            <h4>{`The Wind Today Is ${wind}`}</h4>
+            <h4>{`Wind: ${wind}`}</h4>
             <img src={img} alt='' />
             <div>
-                <strong>{descrip}</strong>
+                <strong>{`Description: ${descrip}`}</strong>
             </div>
             <Button {...props} />
         </div>
