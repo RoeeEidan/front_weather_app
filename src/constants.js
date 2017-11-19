@@ -11,7 +11,7 @@ const SAVE = `SAVE`;
 const ERR_SAVE = `ERR_SAVE`;
 const RESET_SAVE = `RESET_SAVE`;
 
-const url = 'http://localhost:8080';
+const url = '';
 
 export {
     SET_WEATHER,
